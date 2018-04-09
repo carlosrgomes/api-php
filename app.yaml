@@ -3,6 +3,8 @@ api_version: 1
 
 service: apiphp
 
+threadsafe: true
+
 handlers:
 - url: /.*
   script: index.php
