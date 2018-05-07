@@ -21,8 +21,12 @@ Entre no Coud Shell através do ícone:
 
 ![Selecione o projeto](imagens/cloudshell.png)
 
+Faça o clone no git
+---
 
 ```
+git clone https://github.com/carlosrgomes/api-php.git
+cd api-php
 composer install
 gcloud app deploy
 

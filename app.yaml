@@ -1,8 +1,6 @@
 runtime: php55
 api_version: 1
 
-service: apiphp
-
 threadsafe: true
 
 handlers:
