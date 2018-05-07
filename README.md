@@ -15,7 +15,7 @@ Entre no console do Google Cloud Platform com o link [https://console.cloud.goog
 
 Selecione o Projeto criado.
 
-![Selecione o projeto](imagens/select..png)
+![Selecione o projeto](imagens/select.png)
 
 Entre no Coud Shell através do ícone:
 
