@@ -13,6 +13,14 @@ Entre no console do Google Cloud Platform com o link [https://console.cloud.goog
 
 ![Criação do projeto](imagens/create_project2.png)
 
+Selecione o Projeto criado.
+
+![Selecione o projeto](imagens/select..png)
+
+Entre no Coud Shell através do ícone:
+
+![Selecione o projeto](imagens/cloudshell.png)
+
 
 ```
 composer install
