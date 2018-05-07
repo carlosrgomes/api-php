@@ -78,6 +78,27 @@ Do you want to continue (Y/n)?
 
 Digite Y e tecle enter.
 Na tag url será o endereço disponibilizado para sua aplicação.
+Ao final do processo será exibido a mensagem:
+
+```
+Beginning deployment of service [default]...
+Some files were skipped. Pass `--verbosity=info` to see which ones.
+You may also view the gcloud log file, found at
+[/tmp/tmp.tawjXQ3mSE/logs/2018.05.07/10.27.45.995665.log].
+╔════════════════════════════════════════════════════════════╗
+╠═ Uploading 5 files to Google Cloud Storage                ═╣
+╚════════════════════════════════════════════════════════════╝
+File upload done.
+Updating service [default]...done.
+Setting traffic split for service [default]...done.
+Deployed service [default] to [https://exemplo-203412.appspot.com]
+
+You can stream logs from the command line by running:
+  $ gcloud app logs tail -s default
+
+To view your application in the web browser run:
+  $ gcloud app browse
+```
 
 
 
